@@ -18,6 +18,11 @@ These instructions are for users who are looking for template files with clients
 
 2. Copy the file locally.
 
-3. Customize the file with connection information to your Kafka cluster. Notice that the file cannot be used as-is because it has parameters that need to be substituted with real values.  You need to modify the file to provide the values for the bootstrap server and API key and secret. Here is how to create or find [those values](https://docs.confluent.io/current/cloud/using/config-client.html#librdkafka-based-c-clients?utm_source=github&utm_medium=demo&utm_campaign=ch.examples_type.community_content.clients-ccloud).
+3. Customize the file with connection information to your Kafka cluster. Notice that the file cannot be used as-is because it has parameters that need to be substituted with real values.  You need to modify the file to provide the real values for the following parameters. (Here is how to create or find [those values](https://docs.confluent.io/current/cloud/using/config-client.html#librdkafka-based-c-clients?utm_source=github&utm_medium=demo&utm_campaign=ch.examples_type.community_content.clients-ccloud))
+
+* `{{ BROKER_ENDPOINT }}`
+* `{{ CLUSTER_API_KEY }}`
+* `{{ CLUSTER_API_SECRET }}`.
+
 
 5. (optional) If you are using a librdkafka-based client, additional configuration properties are supported. See [CONFIGURATION.md](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md) for the full list.		
