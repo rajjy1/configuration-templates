@@ -33,3 +33,17 @@ These instructions are for users who need template files with client application
     * `{{ SR_ENDPOINT }}`
 
 4. (optional) If you are using a librdkafka-based client, additional configuration properties are supported. See [CONFIGURATION.md](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md) for the full list.		
+
+## With Confluent Platform running on localhost
+
+These instructions are for users who need template files with client application configurations for Confluent Platform running on their local machines, often started with `confluent start`.
+
+1. Select which file you need based on the client type:
+
+   * [Java-based client](clients/local/java.config) or [Java-based client with Confluent Schema Registry](clients/local/java-sr.config): e.g., Java, Groovy, Kotlin, Scala
+   * [librdkafka-based client](clients/local/librdkafka.config) or [librdkafka-based client with Confluent Schema Registry](clients/local/librdkafka-sr.config): e.g., Python, Go, Ruby, Node, kafkacat, .NET, C, Clojure
+   * [Confluent Platform component](clients/local/java.config) or [Confluent Platform component with Confluent Schema Registry](clients/local/java-sr.config): e.g., Confluent CLI, Apache Kafka commands, kafka-connect-datagen, ksql-datagen
+
+2. Copy the file locally.
+
+3. (optional) If you are using a librdkafka-based client, additional configuration properties are supported. See [CONFIGURATION.md](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md) for the full list.
