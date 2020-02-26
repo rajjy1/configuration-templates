@@ -22,15 +22,14 @@ These instructions are for users who need template files with client application
 
   * Required:
 
-    ** `{{ BROKER_ENDPOINT }}`
-    ** `{{ CLUSTER_API_KEY }}`
-    ** `{{ CLUSTER_API_SECRET }}`
+    * `{{ BROKER_ENDPOINT }}`
+    * `{{ CLUSTER_API_KEY }}`
+    * `{{ CLUSTER_API_SECRET }}`
 
   * Required if using Confluent Cloud Schema Registry:
 
-    ** `{{ SR_API_KEY }}`
-    ** `{{ SR_API_SECRET }}`
-    ** `{{ SR_ENDPOINT }}`
-
+    * `{{ SR_API_KEY }}`
+    * `{{ SR_API_SECRET }}`
+    * `{{ SR_ENDPOINT }}`
 
 4. (optional) If you are using a librdkafka-based client, additional configuration properties are supported. See [CONFIGURATION.md](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md) for the full list.		
