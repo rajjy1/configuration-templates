@@ -2,7 +2,7 @@
 
 # About
 
-Template configurations for Apache Kafka and Confluent Platform components
+Template configurations for Apache Kafka® clients and Confluent Platform components
 
 
 # How to use these template files
