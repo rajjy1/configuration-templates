@@ -1,4 +1,4 @@
-![image](images/confluent-logo-300-2.png)
+![image](https://raw.githubusercontent.com/confluentinc/examples/36bae15c8690c6fc008dc5d9a2656379002b48fe/images/confluent-logo-300-2.png)
 
 # About
 
