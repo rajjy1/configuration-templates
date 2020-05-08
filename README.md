@@ -14,6 +14,7 @@ These instructions are for users who need template files with client application
 
    * [Java-based client](clients/cloud/java.config) or [Java-based client with Confluent Cloud Schema Registry](clients/cloud/java-sr.config): e.g., Java, Groovy, Kotlin, Scala, Clojure
    * [librdkafka-based client](clients/cloud/librdkafka.config) or [librdkafka-based client with Confluent Cloud Schema Registry](clients/cloud/librdkafka-sr.config): e.g., Python, Go, Ruby, Node, kafkacat, .NET, C
+   * [Springboot client](clients/cloud/springboot.config) or [Springboot client with Confluent Cloud Schema Registry](clients/cloud/springboot-sr.config)
    * [Confluent Platform component](clients/cloud/java.config) or [Confluent Platform component with Confluent Cloud Schema Registry](clients/cloud/java-sr.config): e.g., Confluent CLI, Apache Kafka commands, kafka-connect-datagen, ksql-datagen 
 
 2. Copy the file locally.
@@ -42,6 +43,7 @@ These instructions are for users who need template files with client application
 
    * [Java-based client](clients/local/java.config) or [Java-based client with Confluent Schema Registry](clients/local/java-sr.config): e.g., Java, Groovy, Kotlin, Scala, Clojure
    * [librdkafka-based client](clients/local/librdkafka.config) or [librdkafka-based client with Confluent Schema Registry](clients/local/librdkafka-sr.config): e.g., Python, Go, Ruby, Node, kafkacat, .NET, C
+   * [Springboot client](clients/local/springboot.config) or [Springboot client with Confluent Cloud Schema Registry](clients/local/springboot-sr.config)
    * [Confluent Platform component](clients/local/java.config) or [Confluent Platform component with Confluent Schema Registry](clients/local/java-sr.config): e.g., Confluent CLI, Apache Kafka commands, kafka-connect-datagen, ksql-datagen
 
 2. Copy the file locally.
