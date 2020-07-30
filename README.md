@@ -8,7 +8,7 @@ Template configuration files for Apache Kafka® clients and Confluent Platform c
 
 ## With Confluent Cloud
 
-These instructions are for users who need template files with client application configurations for [Confluent Cloud](https://www.confluent.io/confluent-cloud/?utm_source=github&utm_medium=demo&utm_campaign=ch.examples_type.community_content.clients-ccloud).
+These instructions are for users who need template files with client application configurations for [Confluent Cloud](https://www.confluent.io/confluent-cloud/?utm_source=github&utm_medium=demo&utm_campaign=ch.examples_type.community_content.clients-ccloud).  The first 20 users to sign up for [Confluent Cloud](https://www.confluent.io/confluent-cloud/?utm_source=github&utm_medium=demo&utm_campaign=ch.examples_type.community_content.clients-ccloud) and use promo code ``C50INTEG`` will receive an additional $50 free usage ([details](https://www.confluent.io/confluent-cloud-promo-disclaimer/?utm_source=github&utm_medium=demo&utm_campaign=ch.examples_type.community_content.clients-ccloud)).
 
 1. Select which file you need based on the client type:
 
@@ -33,7 +33,9 @@ These instructions are for users who need template files with client application
     * `{{ SR_API_SECRET }}`
     * `{{ SR_ENDPOINT }}`
 
-4. (optional) If you are using a librdkafka-based client, additional configuration properties are supported. See [CONFIGURATION.md](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md) for the full list.		
+4. (optional) If you want to provision a brand new stack of fully managed services in Confluent Cloud, and auto-generate a local configuration file, the quickest way is to run [ccloud-stack](https://github.com/confluentinc/examples/blob/latest/ccloud/ccloud-stack/README.md).
+
+5. (optional) If you are using a librdkafka-based client, additional configuration properties are supported. See [CONFIGURATION.md](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md) for the full list.
 
 ## With Confluent Platform running on localhost
 
